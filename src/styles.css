@@ -1,6 +1,42 @@
-h1 {
+:root {
+  --primary-color: #10006b;
+  --secondary-color: rgb(208, 230, 252);
+}
+body {
+  background: #10006b;
+  color: white;
   font-family: "PT Serif", serif;
 }
+h1 {
+  font-size: 62px;
+}
+
+h2,
+h3,
 p {
   font-family: "Raleway", sans-serif;
+}
+h2,
+h3 {
+  font-size: 24px;
+}
+
+.btn-style {
+  color: white;
+  background: var(--primary-color);
+  padding: 10px 15px;
+  border-radius: 30px;
+  margin: 15px;
+}
+
+.btn-style:hover {
+  color: var(--primary-color);
+  background: var(--secondary-color);
+  border: solid 1px var(--primary-color);
+}
+.hero {
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  text-align: center;
+  padding: 50px 20px;
 }
