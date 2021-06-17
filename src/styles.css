@@ -21,7 +21,8 @@ h2 {
   padding-top: 20px;
 }
 h3,
-p {
+p,
+small {
   font-family: "Lato", sans-serif;
 }
 
@@ -31,6 +32,9 @@ h3 {
 
 p {
   text-align: center;
+  display: block;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .bg-custom {
@@ -59,8 +63,8 @@ p {
 }
 
 .quote {
-  text-align: center;
   font-size: 18px;
+  text-align: center;
 }
 
 .project-description p {
