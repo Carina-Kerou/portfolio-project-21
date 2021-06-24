@@ -125,6 +125,10 @@ p {
 }
 .icon {
   color: var(--third-color);
+  transition: all 100ms ease-in-out;
+}
+.icon:hover {
+  color: var(--secondary-color);
 }
 
 @media (max-width: 960px) {
