@@ -94,11 +94,12 @@ p {
 .img-work {
   margin: 0 auto;
 }
-.contact-paragraph {
+.paragraph {
   padding: 20px;
   color: var(--primary-color);
   text-align: center;
   background: var(--secondary-color);
+  border-radius: 20px;
 }
 .intro-text {
   font-size: 18px;
